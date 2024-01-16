@@ -3,15 +3,14 @@
 /*                                                        :::      ::::::::   */
 /*   ft_isalpha.c                                       :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: martaga2 <martaga2@student.42malaga.com>   +#+  +:+       +#+        */
+/*   By: martaga2 <martaga2@student.42malaga.com    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/11/27 14:05:03 by martaga2          #+#    #+#             */
-/*   Updated: 2023/11/28 16:10:43 by martaga2         ###   ########.fr       */
+/*   Updated: 2024/01/08 10:02:30 by martaga2         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include <stdio.h>
-#include <ctype.h>
+#include "libft.h"
 
 int	ft_isalpha(int c)
 {
@@ -19,7 +18,7 @@ int	ft_isalpha(int c)
 		return (1);
 	return (0);
 }
-
+/*
 int	main(void)
 {
 	printf("La funcion generada por mí (ej1): %d\n", ft_isalpha('a'));
@@ -30,3 +29,4 @@ int	main(void)
 	printf("La función original (ej3): %d\n", isalpha ('.'));
 	return (0);
 }
+*/
