@@ -6,11 +6,7 @@
 /*   By: martaga2 <martaga2@student.42malaga.com    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/11/27 14:05:03 by martaga2          #+#    #+#             */
-<<<<<<< HEAD
-/*   Updated: 2024/01/16 13:15:21 by martaga2         ###   ########.fr       */
-=======
 /*   Updated: 2024/01/08 10:02:30 by martaga2         ###   ########.fr       */
->>>>>>> 269a74ba82b30d9cfa5680042b26c62ce5f45088
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -32,7 +28,5 @@ int	main(void)
 	printf("La función original (ej2): %d\n", isalpha ('0'));
 	printf("La función original (ej3): %d\n", isalpha ('.'));
 	return (0);
-
-	
 }
 */
