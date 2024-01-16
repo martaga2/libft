@@ -6,12 +6,11 @@
 /*   By: martaga2 <martaga2@student.42malaga.com    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/11/28 09:47:02 by martaga2          #+#    #+#             */
-/*   Updated: 2024/01/16 13:39:01 by martaga2         ###   ########.fr       */
+/*   Updated: 2024/01/16 13:41:17 by martaga2         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
-
 
 int	ft_isdigit(int c)
 {
