@@ -1,31 +1,39 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   ft_isdigit.c                                       :+:      :+:    :+:   */
+/*   ft_memchr.c                                        :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: martaga2 <martaga2@student.42malaga.com    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2023/11/28 09:47:02 by martaga2          #+#    #+#             */
-/*   Updated: 2024/01/08 10:02:55 by martaga2         ###   ########.fr       */
+/*   Created: 2024/01/08 08:19:09 by martaga2          #+#    #+#             */
+/*   Updated: 2024/01/09 09:51:58 by martaga2         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
 
-int	ft_isdigit(int c)
+void	*ft_memchr(const void *s, int c, size_t n)
 {
-	while (c >= '0' && c <= '9')
-		return (1);
+	size_t			i;
+	unsigned char	*str;
+
+	str = (unsigned char *)s;
+	c = (unsigned char)c;
+	i = 0;
+	while (i < n)
+	{
+		if (str[i] == c)
+			return (str + i);
+		i++;
+	}
 	return (0);
 }
 /*
 int	main(void)
 {
-	int	c;
-
-	c = '3';
-	printf("elresultado con la función mía: %d\n", ft_isdigit(c));
-	printf("el resultado con la función original es: %d\n", isdigit(c));
+	printf("el caracter c está en la posición = %p\n", \
+	ft_memchr("Hello World", 'o', 10));
+	printf("el caracter c = %p\n", \
+	memchr("Hello World", 'o', 10));
 	return (0);
-}
-*/
+}*/

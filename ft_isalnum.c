@@ -3,15 +3,14 @@
 /*                                                        :::      ::::::::   */
 /*   ft_isalnum.c                                       :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: martaga2 <martaga2@student.42malaga.com>   +#+  +:+       +#+        */
+/*   By: martaga2 <martaga2@student.42malaga.com    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/11/28 12:04:47 by martaga2          #+#    #+#             */
-/*   Updated: 2023/11/28 16:08:55 by martaga2         ###   ########.fr       */
+/*   Updated: 2023/12/26 18:12:33 by martaga2         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include <stdio.h>
-#include <ctype.h>
+#include "libft.h"
 
 int	ft_isalnum(int c)
 {
@@ -20,7 +19,7 @@ int	ft_isalnum(int c)
 		return (1);
 	return (0);
 }
-
+/*
 int	main(void)
 {
 	printf("La funcion generada por mí (ej1): %d\n", ft_isalnum('a'));
@@ -31,3 +30,4 @@ int	main(void)
 	printf("La función original (ej3): %d\n", isalnum ('A'));
 	return (0);
 }
+*/
