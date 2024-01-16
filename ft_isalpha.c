@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   ft_isalpha.c                                       :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: martaga2 <martaga2@student.42malaga.com>   +#+  +:+       +#+        */
+/*   By: martaga2 <martaga2@student.42malaga.com    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/11/27 14:05:03 by martaga2          #+#    #+#             */
-/*   Updated: 2023/11/28 16:10:43 by martaga2         ###   ########.fr       */
+/*   Updated: 2024/01/16 13:15:21 by martaga2         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -29,4 +29,6 @@ int	main(void)
 	printf("La función original (ej2): %d\n", isalpha ('0'));
 	printf("La función original (ej3): %d\n", isalpha ('.'));
 	return (0);
+
+	
 }
