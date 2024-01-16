@@ -33,6 +33,9 @@ OBJS    = $(SRCS:.c=.o)
 $(NAME): $(OBJS)
 	@$(LIBC) $(NAME) $(OBJS)
 
+$(OBJS): %.o: %.c
+	gcc $(CFLAGS) -c $< -o $@
+
 all: $(NAME)
 
 clean:
