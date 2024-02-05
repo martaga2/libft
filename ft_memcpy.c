@@ -6,7 +6,7 @@
 /*   By: martaga2 <martaga2@student.42malaga.com    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/12/07 19:41:58 by martaga2          #+#    #+#             */
-/*   Updated: 2024/01/09 09:52:25 by martaga2         ###   ########.fr       */
+/*   Updated: 2024/01/17 14:37:12 by martaga2         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -28,7 +28,7 @@ void	*ft_memcpy(void *dst, const void *src, size_t n)
 /*
 int	main (void)
 {
-	char	o[15] = "Me";
+	char	o[15] = "antes de venir";
 	char	d[15] = "hola";
 	
 	size_t	n;
@@ -39,7 +39,7 @@ int	main (void)
 	ft_memcpy(d, o, n);
 	printf("la frase copiada es: %s\n", d);
 
-	char	or[15] = "Me";
+	char	or[15] = "antes de venir";
 	char	ds[15] = "hola";
 	
 
@@ -52,4 +52,5 @@ int	main (void)
 	memcpy(ds, or, l);
 	printf("la frase copiada tras la función original es: %s", ds);
 	return (0);
-}*/
+}
+*/
